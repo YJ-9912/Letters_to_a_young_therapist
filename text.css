@@ -1,0 +1,30 @@
+@-webkit-keyframes text {
+	from {background:url('black/text.svg')no-repeat; width: 400px; left: 741px; top: 420px;}
+	to {background:url('color/text.svg')no-repeat; width: 532px; left: 676px; top: 400px;}
+}
+
+
+.text {
+	position: absolute;
+width: 532.57px;
+height: 233px;
+left: 676px;
+top: 400px;
+	animation-name: text;
+	animation-duration: 1.5s;
+  background:url('color/text.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.text:hover{
+	animation-name: text ;
+	transition-property: all;
+	animation-duration: 1.5s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}
+
+
+/*left: 800px;
+top: 480px;

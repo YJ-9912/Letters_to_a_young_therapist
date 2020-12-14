@@ -1,0 +1,26 @@
+@-webkit-keyframes left {
+	from {background:url('black/left.svg')no-repeat;}
+	to {background:url('color/left.svg')no-repeat;}
+}
+
+
+.left {
+	position: absolute;
+width: 670px;
+height: 950px;
+left: 0px;
+top: 0px;
+	animation-name: left;
+	animation-duration: 1s;
+  background:url('color/left.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.left:hover{
+	animation-name:left ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

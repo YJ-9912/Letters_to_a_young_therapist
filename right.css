@@ -1,0 +1,26 @@
+@-webkit-keyframes right {
+	from {background:url('black/right.svg')no-repeat;}
+	to {background:url('color/right.svg')no-repeat;}
+}
+
+
+.right {
+	position: absolute;
+width: 600px;
+height: 900px;
+left: 70%;
+top: 105px;
+	animation-name: right;
+	animation-duration: 1s;
+  background:url('color/right.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.right:hover{
+	animation-name:right ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

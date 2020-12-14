@@ -1,0 +1,26 @@
+@-webkit-keyframes down {
+	from {background:url('black/down.svg')no-repeat;}
+	to {background:url('color/down.svg')no-repeat;}
+}
+
+
+.down {
+	position: absolute;
+width: 646.82px;
+height: 218.33px;
+left: 418px;
+top: 750px;
+	animation-name: down;
+	animation-duration: 1s;
+  background:url('color/down.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.down:hover{
+	animation-name:down ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}

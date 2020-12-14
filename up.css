@@ -1,0 +1,26 @@
+@-webkit-keyframes up {
+	from {background:url('black/up.svg')no-repeat;}
+	to {background:url('color/up.svg')no-repeat;}
+}
+
+
+.up {
+	position: absolute;
+width: 1247.08px;
+height: 205.36px;
+left: 521px;
+top: 0px;
+	animation-name: up;
+	animation-duration: 1s;
+  background:url('color/up.svg') no-repeat;
+  animation-play-state: paused;
+}
+
+.up:hover{
+	animation-name:up ;
+	transition-property: all;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;}
+}
